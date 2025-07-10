@@ -25,7 +25,7 @@
       </p>
       <p>
         <strong>正在學習：</strong>
-        Docker / 開源貢獻 / Java
+        Java
       </p>
     </Context>
   </div>
