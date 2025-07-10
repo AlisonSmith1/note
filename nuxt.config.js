@@ -1,4 +1,6 @@
 export default defineNuxtConfig({
-  ssr: true, // 預設就 true，也可以省略
-  target: "static", // ✅ 關鍵設定：產生靜態網站
+  ssr: true, // 可寫可不寫，預設就是 true
+  nitro: {
+    preset: "static", // ✅ 這才是 Nuxt 3 用來產生純靜態網站的寫法
+  },
 });
