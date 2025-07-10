@@ -35,3 +35,12 @@ useHead({
   meta: [{ name: "description", content: "介紹本站作者與背景" }],
 });
 </script>
+<style scoped>
+div {
+  display: block;
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+}
+</style>
