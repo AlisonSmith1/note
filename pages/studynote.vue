@@ -5,10 +5,16 @@ import { NuxtLink } from "#components";
 <template>
   <div>
     <h2>學習筆記</h2>
-    <context style="text-decoration: none" title="歡迎你"
-      ><NuxtLink to="vue">Vue</NuxtLink> |
-      <NuxtLink to="nuxt">Nuxt</NuxtLink></context
-    >
+    <context style="text-decoration: none" title="目錄"
+      ><ul>
+        <li>
+          <NuxtLink to="vue">Vue</NuxtLink>
+          |
+          <NuxtLink to="nuxt">Nuxt</NuxtLink>
+        </li>
+        <li><NuxtLink to="javascript">Javascript</NuxtLink></li>
+      </ul>
+    </context>
   </div>
 </template>
 <style scoped>

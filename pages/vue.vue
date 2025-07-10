@@ -94,7 +94,7 @@
 <style scoped>
 div {
   display: block;
-  margin-bottom: 10px; /* 或你喜歡的距離 */
+  margin-bottom: 10px;
 }
 a {
   text-decoration: none;
