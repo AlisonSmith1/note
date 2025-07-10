@@ -1,13 +1,14 @@
+<script setup lang="ts">
+import { NuxtLink } from "#components";
+</script>
+
 <template>
   <div>
     <h2>學習筆記</h2>
-    <HelloCard
-      style="text-decoration: none"
-      title="歡迎你"
-      content="以下會介紹Lana的學習筆記"
-      linkText="Vue"
-      linkTo="/vue"
-    />
+    <context style="text-decoration: none" title="歡迎你"
+      ><NuxtLink to="vue">Vue</NuxtLink> |
+      <NuxtLink to="nuxt">Nuxt</NuxtLink></context
+    >
   </div>
 </template>
 <style scoped>

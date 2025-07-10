@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2 style="display: inline-block; padding: 5px">Vue</h2>
-    <NuxtLink to="/vueAdvanced">第二頁</NuxtLink>
+    <NuxtLink to="/vueSecond">第二頁</NuxtLink>
     <div>
       <context title="生命週期">
         <p>1. beforeCreate：元件尚未建立前</p>
