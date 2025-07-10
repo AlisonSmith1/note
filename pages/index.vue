@@ -58,7 +58,7 @@
 
 <script setup>
 useHead({
-  title: "首頁 | Nuxt 練習網站",
+  title: "首頁 | Lana 的練習網站",
   meta: [{ name: "description", content: "這是用 Nuxt 建立的首頁範例" }],
 });
 </script>
