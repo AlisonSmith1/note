@@ -27,7 +27,7 @@
     </div>
     <div id="react">
       <Context title="迷你購物平台（React + MongoDB）">
-        <img src="/project01.png" alt="封面圖片" />
+        <img src="/Project01.PNG" alt="封面圖片" />
         <p>信箱:0000@gmail.com <br />密碼:000000</p>
         <p>
           本專案為由我獨立開發的全端二手衣物交易平台，採用 React
