@@ -3,7 +3,7 @@
     <h1>作品集</h1>
     <div id="js">
       <Context title="迷你購物平台（JavaScript + PostgreSQL）">
-        <img src="../public/封面.PNG" alt="封面圖片" />
+        <img src="/封面.PNG" alt="封面圖片" />
         <p>信箱:0000@gmail.com <br />密碼:0000</p>
         <p>
           製作專案時，我把自己定位為顧客，想像顧客的需求，以顧客期望獲得的視覺畫面以及便利性呈現作品，本專案為一套具備註冊、登入、購物車、購買紀錄與商家商品管理功能的線上交易平台。後端以
@@ -27,7 +27,7 @@
     </div>
     <div id="react">
       <Context title="迷你購物平台（React + MongoDB）">
-        <img src="../public/project01.png" alt="封面圖片" />
+        <img src="/project01.png" alt="封面圖片" />
         <p>信箱:0000@gmail.com <br />密碼:000000</p>
         <p>
           本專案為由我獨立開發的全端二手衣物交易平台，採用 React
