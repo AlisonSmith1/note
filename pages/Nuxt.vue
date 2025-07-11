@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <article>
     <h2 style="display: inline-block; padding: 5px">Nuxt</h2>
 
-    <div>
+    <section>
       <context title="自動建立路由">
         <p>在 Vue 裡你要自己裝 vue-router，然後一個一個手動寫路由表。</p>
         <p>
@@ -10,9 +10,9 @@
           資料夾，它就會自動變成網址路由。
         </p>
       </context>
-    </div>
+    </section>
 
-    <div>
+    <section>
       <context title="幫你規劃好專案架構">
         <p>用 Vue 開發時你要自己去想資料夾要怎麼分，還要手動 import 元件。</p>
         <p>
@@ -20,9 +20,9 @@
           等資料夾，也會自動載入元件，不用自己一個一個 import。
         </p>
       </context>
-    </div>
+    </section>
 
-    <div>
+    <section>
       <context title="SEO 設定很輕鬆">
         <p>Vue 要自己處理網頁標題和 meta 資訊，還要額外裝外掛。</p>
         <p>
@@ -31,9 +31,9 @@
         </p>
         <CodeBlock language="html">{{ SEO }}</CodeBlock>
       </context>
-    </div>
+    </section>
 
-    <div>
+    <section>
       <context title="支援 SSR 和靜態網站產生">
         <p>
           如果用 Vue 想做伺服器渲染或靜態站，需要自己設定一堆 webpack 或 Vite
@@ -44,9 +44,9 @@
           等技術細節。
         </p>
       </context>
-    </div>
+    </section>
 
-    <div>
+    <section>
       <context title="資料抓取與 API 也包辦了">
         <p>用 Vue 時要自己架 Express 或 Axios 去抓資料。</p>
         <p>
@@ -55,9 +55,9 @@
         </p>
         <CodeBlock language="html">{{ API }}</CodeBlock>
       </context>
-    </div>
+    </section>
 
-    <div>
+    <section>
       <context title="套件整合超方便">
         <p>Vue 裡裝 Tailwind、Pinia、Axios 要自己寫設定檔。</p>
         <p>
@@ -65,8 +65,8 @@
           都配好了。
         </p>
       </context>
-    </div>
-  </div>
+    </section>
+  </article>
 
   <p style="display: flex; justify-content: center">page: 1</p>
 </template>
@@ -82,10 +82,14 @@ const API = `const { data } = await useFetch('/api/posts')`;
 </script>
 
 <style scoped>
-div {
-  display: block;
-  margin-bottom: 10px; /* 或你喜歡的距離 */
+article {
+  margin-bottom: 20px;
 }
+
+section {
+  margin-bottom: 20px;
+}
+
 a {
   text-decoration: none;
 }

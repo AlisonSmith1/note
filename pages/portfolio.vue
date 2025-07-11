@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <article>
     <h1>作品集</h1>
-    <div id="js">
+    <section id="js">
       <Context title="迷你購物平台（JavaScript + PostgreSQL）">
         <img src="/封面.PNG" alt="封面圖片" />
         <p>信箱:0000@gmail.com <br />密碼:0000</p>
@@ -24,8 +24,8 @@
           <a href="https://github.com/AlisonSmith1/HTML-CSS-JS.git">GitHub</a>
         </p>
       </Context>
-    </div>
-    <div id="react">
+    </section>
+    <section id="react">
       <Context title="迷你購物平台（React + MongoDB）">
         <img src="/Project01.PNG" alt="封面圖片" />
         <p>信箱:0000@gmail.com <br />密碼:000000</p>
@@ -52,8 +52,8 @@
           >
         </p></Context
       >
-    </div>
-    <div id="vue">
+    </section>
+    <section id="vue">
       <Context title="ToDoItem（Vue）">
         <p
           style="
@@ -66,8 +66,8 @@
           <a href="https://github.com/AlisonSmith1/toDoItem.git">GitHub</a>
         </p></Context
       >
-    </div>
-  </div>
+    </section>
+  </article>
 </template>
 
 <script setup>
@@ -77,10 +77,14 @@ useHead({
 });
 </script>
 <style scoped>
-div {
-  display: block;
-  margin-bottom: 10px;
+article {
+  margin-bottom: 20px;
 }
+
+section {
+  margin-bottom: 20px;
+}
+
 a {
   text-decoration: none;
 }

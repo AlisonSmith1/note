@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <article>
     <NuxtLink to="/vue">第一頁</NuxtLink>
-    <div>
+    <section>
       <context title="虛擬 DOM 是什麼？">
         <p>虛擬 DOM 是一種用 JavaScript 物件模擬 DOM 結構的技術。</p>
         <p>它不是實際畫面上的 DOM，而是一個輕量記憶體版本。</p>
@@ -12,13 +12,13 @@
           DOM 做比對（diff），找出差異，最後只更新有變動的真實 DOM。
         </p>
       </context>
-    </div>
-    <div>
+    </section>
+    <section>
       <context title="v-if / v-else-if / v-else 範例">
         <CodeBlock language="html">{{ templateIf }}</CodeBlock>
       </context>
-    </div>
-    <div>
+    </section>
+    <section>
       <context title="setup() 基本說明">
         <p><strong>1. ref()、reactive()：響應式資料</strong></p>
         <p>
@@ -40,8 +40,8 @@
           只有 return 出去的內容才可在畫面中使用。
         </p>
       </context>
-    </div>
-    <div>
+    </section>
+    <section>
       <context title="props vs emit 對照表">
         <p>
           <strong>資料方向：</strong> props 為「父 → 子」，emit 為「子 → 父」。
@@ -84,8 +84,8 @@
         <p><strong>小結：</strong></p>
         <p>props 是「給子元件的資料道具」，emit 是「子元件向父元件喊話」。</p>
       </context>
-    </div>
-    <div>
+    </section>
+    <section>
       <context title="其它常用語法補充">
         <p><strong>1. v-for 迴圈：</strong></p>
         <p>用來重複渲染一組清單資料（通常是陣列）。</p>
@@ -99,8 +99,8 @@
         </p>
         <CodeBlock language="html">{{ watch }}</CodeBlock>
       </context>
-    </div>
-  </div>
+    </section>
+  </article>
   <p style="display: flex; justify-content: center">page: 2</p>
 </template>
 
@@ -139,10 +139,14 @@ watch(
 </script>
 
 <style scoped>
-div {
-  display: block;
-  margin-bottom: 10px; /* 或你喜歡的距離 */
+article {
+  margin-bottom: 20px;
 }
+
+section {
+  margin-bottom: 20px;
+}
+
 a {
   text-decoration: none;
 }

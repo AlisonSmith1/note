@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <article>
     <h2 style="display: inline-block; padding: 5px">Vue</h2>
     <NuxtLink to="/vueSecond">第二頁</NuxtLink>
-    <div>
+    <section>
       <context title="生命週期">
         <p>1. beforeCreate：元件尚未建立前</p>
         <p>2. created：元件已建立，資料與方法已就緒</p>
@@ -16,8 +16,8 @@
           before 系列主要用於資料檢查、初始化、錯誤處理等流程控制。
         </p></context
       >
-    </div>
-    <div>
+    </section>
+    <section>
       <context title="Vue 2 和 Vue 3 差異">
         <p>
           Vue 2 使用
@@ -30,8 +30,8 @@
           ES6 標準。
         </p>
       </context>
-    </div>
-    <div>
+    </section>
+    <section>
       <context title="Vue 基本概念">
         <div>
           <p>Vue 元件是一個可重複使用的畫面區塊。</p>
@@ -86,16 +86,20 @@
           </ul>
         </div>
       </context>
-    </div>
-  </div>
+    </section>
+  </article>
   <p style="display: flex; justify-content: center">page: 1</p>
 </template>
 
 <style scoped>
-div {
-  display: block;
-  margin-bottom: 10px;
+article {
+  margin-bottom: 20px;
 }
+
+section {
+  margin-bottom: 20px;
+}
+
 a {
   text-decoration: none;
 }

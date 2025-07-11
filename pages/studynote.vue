@@ -3,7 +3,7 @@ import { NuxtLink } from "#components";
 </script>
 
 <template>
-  <div>
+  <article>
     <h2>學習筆記</h2>
     <context style="text-decoration: none" title="目錄"
       ><ul>
@@ -17,9 +17,13 @@ import { NuxtLink } from "#components";
         </li>
       </ul>
     </context>
-  </div>
+  </article>
 </template>
 <style scoped>
+article {
+  margin-bottom: 20px;
+}
+
 a {
   text-decoration: none;
 }

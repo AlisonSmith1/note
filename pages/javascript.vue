@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <article>
     <h1>Javascript</h1>
-    <div>
+    <section>
       <context style="text-decoration: none" title="什麼是 JavaScript？"
         ><p>
           JavaScript 撰寫的程式通常稱為「腳本（script）」，可以直接嵌入 HTML
@@ -26,8 +26,8 @@
           引擎有沒有支援囉。
         </p>
       </context>
-    </div>
-    <div>
+    </section>
+    <section>
       <context style="text-decoration: none" title="什麼是 JavaScript？"
         ><p>
           一般來說， {{ script }}標籤會放在 HTML 頁面的最底部，這跟 CSS 的
@@ -43,8 +43,8 @@
           所以，想要讓使用者體驗更順，通常 {{ script }} 都是擺在網頁的最後面！
         </p>
       </context>
-    </div>
-    <div>
+    </section>
+    <section>
       <context
         title="常見的 JavaScript 函數
 "
@@ -60,8 +60,8 @@
           <li>window.prompt()： 跳出一個視窗，讓使用者輸入東西。</li>
         </ul></context
       >
-    </div>
-    <div>
+    </section>
+    <section>
       <context
         title="什麼是 Lexical Structure？
 "
@@ -79,8 +79,8 @@
           <li>分號是可加可不加的，但建議加上</li>
         </ol></context
       >
-    </div>
-    <div>
+    </section>
+    <section>
       <context
         title="變數與賦值（Variables & Assignment）
 
@@ -149,8 +149,8 @@
           <CodeBlock language="javascript">{{ constReassigned }}</CodeBlock>
         </ol></context
       >
-    </div>
-    <div>
+    </section>
+    <section>
       <context
         title="數據類型（Data Type）
 "
@@ -197,8 +197,8 @@
           <li>函式（Function）</li>
         </ul></context
       >
-    </div>
-    <div>
+    </section>
+    <section>
       <context title="Number 數字型別"
         ><p>
           在 JavaScript 中，Number
@@ -291,8 +291,8 @@
           </table>
         </ul></context
       >
-    </div>
-    <div>
+    </section>
+    <section>
       <context title="String 字串型別"
         ><p>
           在 JavaScript 中，<strong>String（字串）</strong>
@@ -327,8 +327,8 @@
           <li>特殊字元：\n 換行</li>
         </ul></context
       >
-    </div>
-    <div>
+    </section>
+    <section>
       <context title=" Number 方法（Number Methods）"
         ><p>
           在 JavaScript 中，數字雖然是基本型別（primitive），但因為 JavaScript
@@ -357,8 +357,8 @@
           </p>
         </ol></context
       >
-    </div>
-    <div>
+    </section>
+    <section>
       <context title="String 屬性與方法"
         ><p>
           在 JavaScript
@@ -400,8 +400,8 @@
         </ol>
         ></context
       >
-    </div>
-  </div>
+    </section>
+  </article>
 </template>
 <script setup>
 import CodeBlock from "~/components/CodeBlock.vue";
@@ -436,10 +436,14 @@ const IEEE754 = `0.1 + 0.2 === 0.3  // false
 </script>
 
 <style scoped>
-div {
-  display: block;
-  margin-bottom: 10px;
+article {
+  margin-bottom: 20px;
 }
+
+section {
+  margin-bottom: 20px;
+}
+
 th,
 td {
   border: 1px solid #ccc;
