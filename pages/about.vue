@@ -1,7 +1,8 @@
 <template>
-  <div>
+  <article>
     <h2>關於Lana</h2>
-    <div>
+
+    <section>
       <context title="基本資料">
         <p>姓名：楊凱甯</p>
         <p>學歷：僑光科技大學 財經法律學系，2024 年畢業</p>
@@ -11,18 +12,34 @@
         <p>電子郵件：kainingyang22@gmail.com</p>
         <p>求職目標：網頁工程師</p>
       </context>
-    </div>
-    <div>
-      <context title="自傳"
-        ><p>
-          　　我畢業於財經法律系，對法律相關的工作沒有太大的興趣，在接觸程式設計後，我發現自己對「建構與拆解系統」特別有熱情。於是我開始自學網頁開發，從
+    </section>
+
+    <section>
+      <context title="軟技能">
+        <p>熱愛學習，能快速吸收新知識。</p>
+        <p>積極解決問題，具備抗壓能力。</p>
+      </context>
+    </section>
+
+    <section>
+      <context title="未來目標">
+        <p>
+          成為全端工程師，深入了解各環節細節，從而獲得更多成就感與專業成長。
+        </p>
+      </context>
+    </section>
+
+    <section>
+      <context title="自傳">
+        <p>
+          我畢業於財經法律系，對法律相關的工作沒有太大的興趣，在接觸程式設計後，我發現自己對「建構與拆解系統」特別有熱情。於是我開始自學網頁開發，從
           HTML / CSS / JavaScript 入門，一步步進入 Vue、Node.js
           與後端資料庫的實作，過程中也練習使用 Git、部署到 Railway。
           我重視「理解」勝於「死背」，因此會花時間研究每個技術背後的邏輯，例如購物車如何運算、API
           怎麼串接、訂單系統怎麼組成。我也喜歡記錄學習過程，寫成學習筆記或文章。未來希望能加入一個技術導向的團隊，發揮我對實作與分析的強項，也持續成長。
         </p>
         <p>
-          　　自2024年11月起，我自學前端技術，學習資源主要參考官方文件、教學影片及和ChatGPT
+          自2024年11月起，我自學前端技術，學習資源主要參考官方文件、教學影片及和ChatGPT
           討論並使用stack overflow釐清觀念。使用 HTML、CSS、JavaScript
           並學會使用 React 製作專案，後端則使用 Node.js + Express.js 串接
           MongoDB／ PostgreSQL資料庫，實作 Restful API、驗證機制與基本 CRUD
@@ -30,20 +47,24 @@
           技術實作方面，自己測試獨立開發「買賣網站」，具備商品瀏覽與管理功能，並使用
           Git 進行版本控制與部署。也用Vue製作了簡單的 Todo
           應用，加深對元件邏輯與使用者互動設計的理解。
-          我重視思考與細節，在開發過程中習慣規劃結構與資料流程，將產品完成。希望能，成為一位稱職的網頁工程師。
-        </p></context
-      >
-    </div>
-    <div>
+          我重視思考與細節，在開發過程中習慣規劃結構與資料流程，將產品完成。希望能成為一位稱職的網頁工程師。
+        </p>
+      </context>
+    </section>
+
+    <section>
       <context title="連結 Links">
         <p>
-          GitHub：<a href="https://github.com/AlisonSmith1" target="_blank"
+          GitHub：<a
+            href="https://github.com/AlisonSmith1"
+            target="_blank"
+            rel="noopener noreferrer"
             >https://github.com/AlisonSmith1</a
           >
         </p>
       </context>
-    </div>
-  </div>
+    </section>
+  </article>
 </template>
 
 <script setup>
@@ -52,12 +73,26 @@ useHead({
   meta: [{ name: "description", content: "介紹本站作者與背景" }],
 });
 </script>
+
 <style scoped>
-div {
-  display: block;
-  margin-bottom: 10px;
+article {
+  margin-bottom: 20px;
 }
+
+section {
+  margin-bottom: 20px;
+}
+
+p {
+  text-indent: 1.5em;
+}
+
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: #007acc;
+}
+
+a:hover {
+  color: #004a99;
 }
 </style>
