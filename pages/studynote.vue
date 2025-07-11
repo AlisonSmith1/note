@@ -7,12 +7,14 @@ import { NuxtLink } from "#components";
     <h2>學習筆記</h2>
     <context style="text-decoration: none" title="目錄"
       ><ul>
-        <li>
+        <li style="padding: 4px">
           <NuxtLink to="vue">Vue</NuxtLink>
           |
           <NuxtLink to="nuxt">Nuxt</NuxtLink>
         </li>
-        <li><NuxtLink to="javascript">Javascript</NuxtLink></li>
+        <li style="padding: 4px">
+          <NuxtLink to="javascript">Javascript</NuxtLink>
+        </li>
       </ul>
     </context>
   </div>

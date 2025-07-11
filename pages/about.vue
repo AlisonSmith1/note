@@ -2,6 +2,17 @@
   <div>
     <h2>關於Lana</h2>
     <div>
+      <context title="基本資料">
+        <p>姓名：楊凱甯</p>
+        <p>學歷：僑光科技大學 財經法律學系，2024 年畢業</p>
+        <p>出生：2002年1月</p>
+        <p>通訊地址：台中市太平區</p>
+        <p>聯絡電話：0968-990-822</p>
+        <p>電子郵件：kainingyang22@gmail.com</p>
+        <p>求職目標：網頁工程師</p>
+      </context>
+    </div>
+    <div>
       <context title="自傳"
         ><p>
           　　我畢業於財經法律系，對法律相關的工作沒有太大的興趣，在接觸程式設計後，我發現自己對「建構與拆解系統」特別有熱情。於是我開始自學網頁開發，從
@@ -19,12 +30,18 @@
           技術實作方面，自己測試獨立開發「買賣網站」，具備商品瀏覽與管理功能，並使用
           Git 進行版本控制與部署。也用Vue製作了簡單的 Todo
           應用，加深對元件邏輯與使用者互動設計的理解。
-          我重視思考與細節，在開發過程中習慣規劃結構與資料流程，將產品完成。希望能，成為一位稱職的網頁工程師。"
+          我重視思考與細節，在開發過程中習慣規劃結構與資料流程，將產品完成。希望能，成為一位稱職的網頁工程師。
         </p></context
       >
     </div>
     <div>
-      <context title="聯絡方式"><p>Email：kainingyang22@gmail.com</p></context>
+      <context title="連結 Links">
+        <p>
+          GitHub：<a href="https://github.com/AlisonSmith1" target="_blank"
+            >https://github.com/AlisonSmith1</a
+          >
+        </p>
+      </context>
     </div>
   </div>
 </template>
