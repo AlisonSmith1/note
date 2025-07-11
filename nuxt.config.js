@@ -1,6 +1,13 @@
 export default defineNuxtConfig({
-  ssr: true, // 可寫可不寫，預設就是 true
+  ssr: true,
   nitro: {
-    preset: "static", // ✅ 這才是 Nuxt 3 用來產生純靜態網站的寫法
+    preset: "static",
+  },
+  modules: ["nuxt-gtag"],
+  gtag: {
+    id: "G-6ZBQK6VDJ7", // 換成你的 GA ID
+    config: {
+      anonymize_ip: true,
+    },
   },
 });
