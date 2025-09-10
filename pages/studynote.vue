@@ -9,12 +9,12 @@ import { NuxtLink } from "#components";
       ><ul>
         <li style="padding: 4px">
           <NuxtLink to="vue">Vue</NuxtLink>
-          |
-          <NuxtLink to="nuxt">Nuxt</NuxtLink>
+          <!-- | -->
+          <!-- <NuxtLink to="nuxt">Nuxt</NuxtLink> -->
         </li>
-        <li style="padding: 4px">
+        <!-- <li style="padding: 4px">
           <NuxtLink to="javascript">Javascript</NuxtLink>
-        </li>
+        </li> -->
       </ul>
     </context>
   </article>
