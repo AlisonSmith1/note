@@ -5,7 +5,6 @@
       <nav>
         <NuxtLink to="/">首頁</NuxtLink> |
         <NuxtLink to="/portfolio">作品集</NuxtLink> |
-        <NuxtLink to="/studynote">學習筆記</NuxtLink> |
         <NuxtLink to="/about">關於我</NuxtLink> |
       </nav>
     </header>
