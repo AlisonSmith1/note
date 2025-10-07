@@ -12,7 +12,7 @@
         <p>以下是我目前掌握的技能與技術：</p>
         <p>
           <strong>前端技術：</strong>
-          HTML / CSS / JavaScript / Vue / Nuxt / React / RWD
+          HTML / CSS / JavaScript / Vue / React / RWD
         </p>
         <p>
           <strong>後端技術：</strong>
