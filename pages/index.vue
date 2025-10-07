@@ -34,6 +34,11 @@
       <Context title="實作專案">
         <ul>
           <li>
+            <strong>聊天室（Vue + PostgreSQL）</strong> - 使用 Vue 製作，搭配
+            Express 後端與 PostgreSQL 資料庫
+            <NuxtLink to="/portfolio#js"> 查看作品</NuxtLink>
+          </li>
+          <li>
             <strong>迷你購物平台（JavaScript + PostgreSQL）</strong> - 使用原生
             JS 製作，搭配 Express 後端與 PostgreSQL 資料庫
             <NuxtLink to="/portfolio#js"> 查看作品</NuxtLink>
