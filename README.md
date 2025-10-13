@@ -1,76 +1,15 @@
-# Nuxt Minimal Starter
+"# 自我介紹網頁"
+前端 (Nuxt)
+────────────────────────────────────
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+1. 首頁
 
-## Setup
+   - 個人簡介
 
-Make sure to install dependencies:
+2. 作品集
 
-```bash
-# npm
-npm install
+   - chatroom
+   - 購物平台
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-"# note" 
+3. 關於我
+   - 詳細自我介紹

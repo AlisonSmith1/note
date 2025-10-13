@@ -25,7 +25,7 @@
         </p>
         <p>
           <strong>正在學習：</strong>
-          Java
+          Asp.Net Core Web(Model-View-Controller)
         </p>
       </Context>
     </section>
