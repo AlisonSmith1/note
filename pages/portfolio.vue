@@ -128,7 +128,7 @@ a {
   margin: 0 auto;
 }
 
-.cover img {
+section .cover img {
   width: 100%;
   height: auto;
 }
