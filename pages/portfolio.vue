@@ -125,14 +125,15 @@ a {
 .cover {
   width: 100%;
   max-width: 800px;
-  overflow: hidden;
   margin: 0 auto;
+  overflow: hidden;
+  flex-shrink: 1;
+  min-width: 0;
 }
 
-.cover img {
-  width: 100%;
+img {
+  max-width: 100vw;
   height: auto;
   display: block;
-  object-fit: cover;
 }
 </style>
