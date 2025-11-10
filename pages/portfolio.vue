@@ -139,8 +139,8 @@ a {
   }
 
   .cover img {
-    width: 50px;
-    height: 50px;
+    width: 20%;
+    height: 20%;
   }
 }
 </style>
