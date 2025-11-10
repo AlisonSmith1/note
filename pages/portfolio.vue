@@ -3,7 +3,7 @@
     <h1>作品集</h1>
     <section id="chatroom">
       <Context title="聊天室"
-        ><div>
+        ><div class="cover">
           <img src="" alt="封面圖片" />
         </div>
         <p>帳號:0000 <br />密碼:0000</p>
@@ -29,7 +29,7 @@
     </section>
     <section id="js">
       <Context title="迷你購物平台（JavaScript + PostgreSQL）"
-        ><div>
+        ><div class="cover">
           <img src="/封面.PNG" alt="封面圖片" />
         </div>
         <p>信箱:0000@gmail.com <br />密碼:0000</p>
@@ -56,7 +56,7 @@
     </section>
     <section id="react">
       <Context title="迷你購物平台（React + MongoDB）"
-        ><div>
+        ><div class="cover">
           <img src="/Project01.PNG" alt="封面圖片" />
         </div>
         <p>信箱:0000@gmail.com <br />密碼:000000</p>
@@ -119,15 +119,17 @@ a {
   text-decoration: none;
 }
 
-div {
-  max-width: 800px;
+.cover {
   width: 100%;
+  max-width: 800px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
-img {
-  max-width: 100%;
+.cover img {
+  width: 100%;
   height: auto;
   display: block;
+  object-fit: cover;
 }
 </style>
