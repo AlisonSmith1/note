@@ -140,7 +140,7 @@ a {
 
   .cover img {
     width: 50px;
-    height: auto;
+    height: 50px;
   }
 }
 </style>
