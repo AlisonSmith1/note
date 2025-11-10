@@ -137,5 +137,10 @@ a {
   .cover {
     max-width: 100%;
   }
+
+  .cover img {
+    width: 200px;
+    height: auto;
+  }
 }
 </style>
