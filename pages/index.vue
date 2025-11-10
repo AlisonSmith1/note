@@ -5,7 +5,6 @@
     <section>
       <p>嗨，我是楊凱甯</p>
       <p>一位轉職中的網頁開發學習者，熱愛動手實作與深入理解技術。</p>
-      <p>目前專注於學習 Vue、Nuxt 與後端技術，目標成為全端工程師。</p>
     </section>
     <section>
       <Context title="技能與技術">
@@ -64,7 +63,7 @@
 
 <script setup>
 useHead({
-  title: "首頁 | Lana 的練習網站",
+  title: "首頁 | 楊凱甯 的練習網站",
   meta: [{ name: "description", content: "這是用 Nuxt 建立的首頁範例" }],
 });
 </script>

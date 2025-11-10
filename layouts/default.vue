@@ -1,7 +1,7 @@
 <template>
   <div>
     <header style="background: #eee; padding: 10px">
-      <h1>Lana的網站</h1>
+      <h1>楊凱甯的網站</h1>
       <nav>
         <NuxtLink to="/">首頁</NuxtLink> |
         <NuxtLink to="/portfolio">作品集</NuxtLink> |
