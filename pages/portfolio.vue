@@ -140,7 +140,7 @@ section .cover img {
 
   .cover img {
     width: 100%;
-    height: auto;
+    height: auto !important;
   }
 }
 </style>
