@@ -113,6 +113,9 @@ article {
 
 section {
   margin-bottom: 20px;
+  max-width: 800px;
+  width: 100%;
+  overflow: hidden;
 }
 
 a {
