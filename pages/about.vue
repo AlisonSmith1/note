@@ -67,6 +67,14 @@
             >https://github.com/AlisonSmith1</a
           >
         </p>
+        <p>
+          Microsoft Training：<a
+            href="https://learn.microsoft.com/zh-tw/users/laalaa-0572/transcript/71ooayl51p2mq0v"
+            target="_blank"
+            rel="noopener noreferrer"
+            >https://learn.microsoft.com/zh-tw/users/laalaa-0572/transcript/71ooayl51p2mq0v</a
+          >
+        </p>
       </context>
     </section>
   </article>
