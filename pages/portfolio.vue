@@ -130,7 +130,7 @@ a {
 
 section .cover img {
   width: 100%;
-  height: auto;
+  height: auto !important;
 }
 
 @media (max-width: 600px) {
