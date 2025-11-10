@@ -120,9 +120,8 @@ a {
 }
 
 img {
-  display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
-  object-fit: cover;
+  display: block;
 }
 </style>
