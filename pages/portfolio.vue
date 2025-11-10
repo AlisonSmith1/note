@@ -114,8 +114,7 @@ a {
 }
 
 img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
+  width: auto;
+  height: 200px;
 }
 </style>
