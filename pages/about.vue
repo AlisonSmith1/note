@@ -11,7 +11,9 @@
         <p>通訊地址：台中市太平區</p>
         <p>聯絡電話：0968-990-822</p>
         <p>電子郵件：kainingyang22@gmail.com</p>
-        <p>求職目標：網頁工程師</p>
+        <p>
+          求職目標：前端工程師、後端工程師、網頁設計師、Internet程式設計師、軟體工程師、助理工程師
+        </p>
       </context>
     </section>
 
@@ -24,9 +26,7 @@
 
     <section>
       <context title="未來目標">
-        <p>
-          成為全端工程師，深入了解各環節細節，從而獲得更多成就感與專業成長。
-        </p>
+        <p>深入了解各環節細節，從而獲得更多成就感與專業成長。</p>
       </context>
     </section>
 
@@ -75,7 +75,7 @@
 <script setup>
 useHead({
   title: "關於我 | 楊凱甯 小網站",
-  meta: [{ name: "description", content: "介紹本站作者與背景" }],
+  meta: [{ name: "description", content: "關於楊凱甯" }],
 });
 </script>
 

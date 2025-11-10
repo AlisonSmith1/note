@@ -49,7 +49,7 @@
     <section>
       <Context title="我的故事">
         <p>
-          我不是科班出身，但我對學習有極高熱情。從法經背景轉職為工程師的過程中，我一步步累積實作經驗，也樂於深入研究技術背後的原理。我相信「理解比記憶更重要」，寫過從購物車、訂單系統，到後端部署的各種練習專案。
+          我不是本科出身，但我對學習有極高熱情。從法經背景轉職為工程師的過程中，我一步步累積實作經驗，也樂於深入研究技術背後的原理。我相信「理解比記憶更重要」，寫過從購物車、訂單系統，到後端部署的各種練習專案。
         </p>
         <NuxtLink to="/about">關於我</NuxtLink></Context
       >
@@ -60,7 +60,7 @@
 <script setup>
 useHead({
   title: "首頁 | 楊凱甯 的練習網站",
-  meta: [{ name: "description", content: "這是用 Nuxt 建立的首頁範例" }],
+  meta: [{ name: "description", content: "楊凱甯的個人首頁" }],
 });
 </script>
 <style scoped>
