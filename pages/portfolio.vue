@@ -139,7 +139,7 @@ a {
   }
 
   .cover img {
-    width: 200px;
+    width: 50px;
     height: auto;
   }
 }
