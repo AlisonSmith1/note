@@ -2,8 +2,10 @@
   <article>
     <h1>作品集</h1>
     <section id="chatroom">
-      <Context title="聊天室">
-        <img src="" alt="封面圖片" />
+      <Context title="聊天室"
+        ><div>
+          <img src="" alt="封面圖片" />
+        </div>
         <p>帳號:0000 <br />密碼:0000</p>
         <p>
           本專案是一套即時聊天室系統，提供使用者註冊、登入、多聊天室切換與即時訊息收發功能。後端使用
@@ -26,8 +28,10 @@
       </Context>
     </section>
     <section id="js">
-      <Context title="迷你購物平台（JavaScript + PostgreSQL）">
-        <img src="/封面.PNG" alt="封面圖片" />
+      <Context title="迷你購物平台（JavaScript + PostgreSQL）"
+        ><div>
+          <img src="/封面.PNG" alt="封面圖片" />
+        </div>
         <p>信箱:0000@gmail.com <br />密碼:0000</p>
         <p>
           本專案是一套線上交易平台，提供使用者註冊、登入、購物車、購買紀錄與商家商品管理功能。後端以
@@ -51,8 +55,10 @@
       </Context>
     </section>
     <section id="react">
-      <Context title="迷你購物平台（React + MongoDB）">
-        <img src="/Project01.PNG" alt="封面圖片" />
+      <Context title="迷你購物平台（React + MongoDB）"
+        ><div>
+          <img src="/Project01.PNG" alt="封面圖片" />
+        </div>
         <p>信箱:0000@gmail.com <br />密碼:000000</p>
         <p>
           本專案為我獨立開發的全端二手衣物交易平台，前端採用 React，後端以
