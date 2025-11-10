@@ -126,14 +126,16 @@ a {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  overflow: hidden;
-  flex-shrink: 1;
-  min-width: 0;
 }
 
-img {
-  max-width: 100vw;
+.cover img {
+  width: 100%;
   height: auto;
-  display: block;
+}
+
+@media (max-width: 600px) {
+  .cover {
+    max-width: 100%;
+  }
 }
 </style>
