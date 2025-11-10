@@ -22,10 +22,6 @@
           <strong>部署與開發工具：</strong>
           Git / GitHub / NPM / Railway / pgAdmin4 / Cloudinary / ChatGPT
         </p>
-        <p>
-          <strong>正在學習：</strong>
-          Asp.Net Core Web(Model-View-Controller)
-        </p>
       </Context>
     </section>
 
