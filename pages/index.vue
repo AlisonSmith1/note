@@ -26,21 +26,22 @@
     </section>
 
     <section>
-      <Context title="實作專案">
+      <Context title="作品集">
         <ul>
           <li>
-            <strong>聊天室（Vue + PostgreSQL）</strong> - 使用 Vue 製作，搭配
-            Express 後端與 PostgreSQL 資料庫
+            <strong>聊天室（Vue + PostgreSQL）</strong> - 於 2025 年 9
+            月底完成，使用 Vue 製作，搭配 Express 後端與 PostgreSQL 資料庫
             <NuxtLink to="/portfolio#chatroom"> 查看作品</NuxtLink>
           </li>
           <li>
-            <strong>迷你購物平台（JavaScript + PostgreSQL）</strong> - 使用原生
-            JS 製作，搭配 Express 後端與 PostgreSQL 資料庫
+            <strong>迷你購物平台（JavaScript + PostgreSQL）</strong> - 於 2025
+            年 6 月底完成，使用原生 JS 製作，搭配 Express 後端與 PostgreSQL
+            資料庫
             <NuxtLink to="/portfolio#js"> 查看作品</NuxtLink>
           </li>
           <li>
-            <strong>迷你購物平台（React + MongoDB）</strong> - 使用 React
-            前端，Express + MongoDB 架設後端與資料庫
+            <strong>迷你購物平台（React + MongoDB）</strong> - 於 2025 年 4
+            月底完成，使用 React 前端，Express + MongoDB 架設後端與資料庫
             <NuxtLink to="/portfolio#react"> 查看作品</NuxtLink>
           </li>
         </ul>
